@@ -21,7 +21,7 @@ counts = count_words("yourfile.txt")
 
 # Plot the top 10 words
 plot_words(counts, n=10)
-
+```
 
 ## Contributing
 
