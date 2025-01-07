@@ -10,7 +10,18 @@ $ pip install pycounts_elshaday
 
 ## Usage
 
-- TODO
+After installation, you can use the package as follows:
+
+```python
+from pycounts_elshaday.pycounts_elshaday import count_words
+from pycounts_elshaday.plotting import plot_words
+
+# Count the words in a text file
+counts = count_words("yourfile.txt")
+
+# Plot the top 10 words
+plot_words(counts, n=10)
+
 
 ## Contributing
 
