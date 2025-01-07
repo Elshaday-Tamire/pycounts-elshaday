@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pycounts_elshaday"
+version = "0.1.0"
+description = "Calculate word counts in a text file!"
+authors = ["Elshaday Yoseph"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "pycounts_elshaday", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
