@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycounts_elshaday"
-version = "0.1.0"
+version = "0.1.1"
 description = "Calculate word counts in a text file!"
 authors = ["Elshaday Yoseph"]
 license = "MIT"
